@@ -8,7 +8,7 @@ import http from 'http'
 const server = http.createServer(app);
 import { Server } from 'socket.io'
 
-import socketInit from './sockets/jogoSocket.js';
+import socketInit from './sockets/socket.js';
 
 const io = new Server(server);
 
